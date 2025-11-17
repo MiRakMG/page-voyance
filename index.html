@@ -13,8 +13,9 @@
 <body class="text-base text-dark-purple">
     <header class="shadow-md">
         <div class="max-w-1536 mx-auto px-5 py-3 flex justify-between ">
-            <img src="./images/logo.svg" alt="voyance-page">
-            <button class="flex items-center gap-x-2 bg-amest text-white rounded-md px-4 py-2">
+            <a href=""><img src="./images/logo.svg" alt="voyance-page"></a>
+            <button
+                class="flex items-center gap-x-2 bg-amest text-white rounded-md px-4 py-2 cursor-pointer hover:opacity-90 transition-all">
                 <iconify-icon icon="hugeicons:location-10" class="text-xl"></iconify-icon>
                 <span class="hidden md:block">Voyante autour de moi</span>
             </button>
@@ -34,10 +35,11 @@
                 <p class="text-white/70 text-center md:text-start">Ne manquez pas cette chance : 10 minutes gratuites
                     pour <br class="hidden md:block"> éclairer votre
                     chemin.</p>
-                <button class="flex items-center gap-x-2 bg-tropical-indigo text-white rounded-md px-4 py-2 w-fit">
+                <a href="./pages/profile.html"
+                    class="flex items-center gap-x-2 bg-tropical-indigo text-white rounded-md px-4 py-2 w-fit cursor-pointer hover:opacity-90 transition-all">
                     <iconify-icon icon="mynaui:click" class="text-xl"></iconify-icon>
                     <span>Je profite des 10 minutes gratuites</span>
-                </button>
+                </a>
 
             </div>
         </section>
@@ -88,146 +90,179 @@
             </div>
 
             <div class="grid lg:grid-cols-2 mt-5 gap-5">
-                <a href="./pages/profile.html">
-                    <article class="p-3 rounded-md border border-black/10 flex items-center gap-x-5 relative">
-                        <img src="./images/avatar-1.png" alt="avatar-1"
-                            class="h-28 w-28 border-4 border-black/10 rounded-md">
+                <a href="./pages/profile.html"
+                    class=" duration-300 ease-in-out hover:scale-101 hover:grayscale-10 hover:bg-back">
+                    <article class="p-3 rounded-md border border-black/10 relative">
+                        <div class="flex items-center gap-x-5">
+                            <img src="./images/avatar-1.png" alt="avatar-1"
+                                class="h-28 w-28 border-4 border-black/10 rounded-md object-cover">
 
-                        <div class="flex flex-col gap-y-2 relative">
-                            <h3 class="font-medium">Jerome Bell</h3>
-                            <p class="text-dark-purple/65 flex items-center gap-x-2">
-                                <iconify-icon icon="proicons:location" class=" text-lg"></iconify-icon>
-                                <span>2972 Westheimer Rd. Santa Ana, Illinois 85486 </span>
-                            </p>
-                            <p
-                                class="text-tropical-indigo border border-tropical-indigo rounded-full py-1.5 px-3 w-fit">
-                                Voyant
-                            </p>
+                            <div class="flex flex-col gap-y-2 relative">
+                                <h3 class="font-medium">Jerome Bell</h3>
+                                <p class="text-dark-purple/65 flex items-center gap-x-2">
+                                    <iconify-icon icon="proicons:location" class=" text-lg"></iconify-icon>
+                                    <span>2972 Westheimer Rd. Santa Ana, Illinois 85486 </span>
+                                </p>
+                                <p
+                                    class="text-tropical-indigo border border-tropical-indigo rounded-full py-1.5 px-3 w-fit">
+                                    Voyant
+                                </p>
 
+                            </div>
                         </div>
 
                         <button
-                            class="absolute right-10 bottom-3 flex items-center gap-x-2 bg-amest text-white rounded-md px-4 py-2">
+                            class="w-full mt-5 md:w-fit md:absolute right-10 bottom-3 flex justify-center items-center gap-x-2 bg-amest text-white rounded-md px-4 py-2">
                             <iconify-icon icon="fluent:call-28-regular" class="text-xl"></iconify-icon>
                             <span>Contacter</span>
                         </button>
                     </article>
                 </a>
 
-                <article class="p-3 rounded-md border border-black/10 flex items-center gap-x-5 relative">
-                    <img src="./images/avatar-1.png" alt="avatar-1"
-                        class="h-28 w-28 border-4 border-black/10 rounded-md">
+                <a href="./pages/profile.html"
+                    class=" duration-300 ease-in-out hover:scale-101 hover:grayscale-10 hover:bg-back">
+                    <article class="p-3 rounded-md border border-black/10 relative">
+                        <div class="flex items-center gap-x-5">
+                            <img src="./images/avatar-2.jpg" alt="avatar-1"
+                                class="h-28 w-28 border-4 border-black/10 rounded-md object-cover">
 
-                    <div class="flex flex-col gap-y-2 relative">
-                        <h3 class="font-medium">Jerome Bell</h3>
-                        <p class="text-dark-purple/65 flex items-center gap-x-2">
-                            <iconify-icon icon="proicons:location" class=" text-lg"></iconify-icon>
-                            <span>2972 Westheimer Rd. Santa Ana, Illinois 85486 </span>
-                        </p>
-                        <p class="text-tropical-indigo border border-tropical-indigo rounded-full py-1.5 px-3 w-fit">
-                            Voyant
-                        </p>
+                            <div class="flex flex-col gap-y-2 relative">
+                                <h3 class="font-medium">Jerome Bell</h3>
+                                <p class="text-dark-purple/65 flex items-center gap-x-2">
+                                    <iconify-icon icon="proicons:location" class=" text-lg"></iconify-icon>
+                                    <span>2972 Westheimer Rd. Santa Ana, Illinois 85486 </span>
+                                </p>
+                                <p
+                                    class="text-tropical-indigo border border-tropical-indigo rounded-full py-1.5 px-3 w-fit">
+                                    Voyant
+                                </p>
 
-                    </div>
+                            </div>
+                        </div>
 
-                    <button
-                        class="absolute right-10 bottom-3 flex items-center gap-x-2 bg-amest text-white rounded-md px-4 py-2">
-                        <iconify-icon icon="fluent:call-28-regular" class="text-xl"></iconify-icon>
-                        <span>Contacter</span>
-                    </button>
-                </article>
+                        <button
+                            class="w-full mt-5 md:w-fit md:absolute right-10 bottom-3 flex justify-center items-center gap-x-2 bg-amest text-white rounded-md px-4 py-2">
+                            <iconify-icon icon="fluent:call-28-regular" class="text-xl"></iconify-icon>
+                            <span>Contacter</span>
+                        </button>
+                    </article>
+                </a>
 
-                <article class="p-3 rounded-md border border-black/10 flex items-center gap-x-5 relative">
-                    <img src="./images/avatar-1.png" alt="avatar-1"
-                        class="h-28 w-28 border-4 border-black/10 rounded-md">
+                <a href="./pages/profile.html"
+                    class=" duration-300 ease-in-out hover:scale-101 hover:grayscale-10 hover:bg-back">
+                    <article class="p-3 rounded-md border border-black/10 relative">
+                        <div class="flex items-center gap-x-5">
+                            <img src="./images/avatar-3.png" alt="avatar-1"
+                                class="h-28 w-28 border-4 border-black/10 rounded-md object-cover">
 
-                    <div class="flex flex-col gap-y-2 relative">
-                        <h3 class="font-medium">Jerome Bell</h3>
-                        <p class="text-dark-purple/65 flex items-center gap-x-2">
-                            <iconify-icon icon="proicons:location" class=" text-lg"></iconify-icon>
-                            <span>2972 Westheimer Rd. Santa Ana, Illinois 85486 </span>
-                        </p>
-                        <p class="text-tropical-indigo border border-tropical-indigo rounded-full py-1.5 px-3 w-fit">
-                            Voyant
-                        </p>
+                            <div class="flex flex-col gap-y-2 relative">
+                                <h3 class="font-medium">Jerome Bell</h3>
+                                <p class="text-dark-purple/65 flex items-center gap-x-2">
+                                    <iconify-icon icon="proicons:location" class=" text-lg"></iconify-icon>
+                                    <span>2972 Westheimer Rd. Santa Ana, Illinois 85486 </span>
+                                </p>
+                                <p
+                                    class="text-tropical-indigo border border-tropical-indigo rounded-full py-1.5 px-3 w-fit">
+                                    Voyant
+                                </p>
 
-                    </div>
+                            </div>
+                        </div>
 
-                    <button
-                        class="absolute right-10 bottom-3 flex items-center gap-x-2 bg-amest text-white rounded-md px-4 py-2">
-                        <iconify-icon icon="fluent:call-28-regular" class="text-xl"></iconify-icon>
-                        <span>Contacter</span>
-                    </button>
-                </article>
+                        <button
+                            class="w-full mt-5 md:w-fit md:absolute right-10 bottom-3 flex justify-center items-center gap-x-2 bg-amest text-white rounded-md px-4 py-2">
+                            <iconify-icon icon="fluent:call-28-regular" class="text-xl"></iconify-icon>
+                            <span>Contacter</span>
+                        </button>
+                    </article>
+                </a>
 
-                <article class="p-3 rounded-md border border-black/10 flex items-center gap-x-5 relative">
-                    <img src="./images/avatar-1.png" alt="avatar-1"
-                        class="h-28 w-28 border-4 border-black/10 rounded-md">
+                <a href="./pages/profile.html"
+                    class=" duration-300 ease-in-out hover:scale-101 hover:grayscale-10 hover:bg-back">
+                    <article class="p-3 rounded-md border border-black/10 relative">
+                        <div class="flex items-center gap-x-5">
+                            <img src="./images/avatar-4.png" alt="avatar-1"
+                                class="h-28 w-28 border-4 border-black/10 rounded-md object-cover">
 
-                    <div class="flex flex-col gap-y-2 relative">
-                        <h3 class="font-medium">Jerome Bell</h3>
-                        <p class="text-dark-purple/65 flex items-center gap-x-2">
-                            <iconify-icon icon="proicons:location" class=" text-lg"></iconify-icon>
-                            <span>2972 Westheimer Rd. Santa Ana, Illinois 85486 </span>
-                        </p>
-                        <p class="text-tropical-indigo border border-tropical-indigo rounded-full py-1.5 px-3 w-fit">
-                            Voyant
-                        </p>
+                            <div class="flex flex-col gap-y-2 relative">
+                                <h3 class="font-medium">Jerome Bell</h3>
+                                <p class="text-dark-purple/65 flex items-center gap-x-2">
+                                    <iconify-icon icon="proicons:location" class=" text-lg"></iconify-icon>
+                                    <span>2972 Westheimer Rd. Santa Ana, Illinois 85486 </span>
+                                </p>
+                                <p
+                                    class="text-tropical-indigo border border-tropical-indigo rounded-full py-1.5 px-3 w-fit">
+                                    Voyant
+                                </p>
 
-                    </div>
+                            </div>
+                        </div>
 
-                    <button
-                        class="absolute right-10 bottom-3 flex items-center gap-x-2 bg-amest text-white rounded-md px-4 py-2">
-                        <iconify-icon icon="fluent:call-28-regular" class="text-xl"></iconify-icon>
-                        <span>Contacter</span>
-                    </button>
-                </article>
+                        <button
+                            class="w-full mt-5 md:w-fit md:absolute right-10 bottom-3 flex justify-center items-center gap-x-2 bg-amest text-white rounded-md px-4 py-2">
+                            <iconify-icon icon="fluent:call-28-regular" class="text-xl"></iconify-icon>
+                            <span>Contacter</span>
+                        </button>
+                    </article>
+                </a>
 
-                <article class="p-3 rounded-md border border-black/10 flex items-center gap-x-5 relative">
-                    <img src="./images/avatar-1.png" alt="avatar-1"
-                        class="h-28 w-28 border-4 border-black/10 rounded-md">
+                <a href="./pages/profile.html"
+                    class=" duration-300 ease-in-out hover:scale-101 hover:grayscale-10 hover:bg-back">
+                    <article class="p-3 rounded-md border border-black/10 relative">
+                        <div class="flex items-center gap-x-5">
+                            <img src="./images/avatar-5.png" alt="avatar-1"
+                                class="h-28 w-28 border-4 border-black/10 rounded-md object-cover">
 
-                    <div class="flex flex-col gap-y-2 relative">
-                        <h3 class="font-medium">Jerome Bell</h3>
-                        <p class="text-dark-purple/65 flex items-center gap-x-2">
-                            <iconify-icon icon="proicons:location" class=" text-lg"></iconify-icon>
-                            <span>2972 Westheimer Rd. Santa Ana, Illinois 85486 </span>
-                        </p>
-                        <p class="text-tropical-indigo border border-tropical-indigo rounded-full py-1.5 px-3 w-fit">
-                            Voyant
-                        </p>
+                            <div class="flex flex-col gap-y-2 relative">
+                                <h3 class="font-medium">Jerome Bell</h3>
+                                <p class="text-dark-purple/65 flex items-center gap-x-2">
+                                    <iconify-icon icon="proicons:location" class=" text-lg"></iconify-icon>
+                                    <span>2972 Westheimer Rd. Santa Ana, Illinois 85486 </span>
+                                </p>
+                                <p
+                                    class="text-tropical-indigo border border-tropical-indigo rounded-full py-1.5 px-3 w-fit">
+                                    Voyant
+                                </p>
 
-                    </div>
+                            </div>
+                        </div>
 
-                    <button
-                        class="absolute right-10 bottom-3 flex items-center gap-x-2 bg-amest text-white rounded-md px-4 py-2">
-                        <iconify-icon icon="fluent:call-28-regular" class="text-xl"></iconify-icon>
-                        <span>Contacter</span>
-                    </button>
-                </article>
+                        <button
+                            class="w-full mt-5 md:w-fit md:absolute right-10 bottom-3 flex justify-center items-center gap-x-2 bg-amest text-white rounded-md px-4 py-2">
+                            <iconify-icon icon="fluent:call-28-regular" class="text-xl"></iconify-icon>
+                            <span>Contacter</span>
+                        </button>
+                    </article>
+                </a>
 
-                <article class="p-3 rounded-md border border-black/10 flex items-center gap-x-5 relative">
-                    <img src="./images/avatar-1.png" alt="avatar-1"
-                        class="h-28 w-28 border-4 border-black/10 rounded-md">
+                <a href="./pages/profile.html"
+                    class=" duration-300 ease-in-out hover:scale-101 hover:grayscale-10 hover:bg-back">
+                    <article class="p-3 rounded-md border border-black/10 relative">
+                        <div class="flex items-center gap-x-5">
+                            <img src="./images/avatar-6.png" alt="avatar-1"
+                                class="h-28 w-28 border-4 border-black/10 rounded-md object-cover">
 
-                    <div class="flex flex-col gap-y-2 relative">
-                        <h3 class="font-medium">Jerome Bell</h3>
-                        <p class="text-dark-purple/65 flex items-center gap-x-2">
-                            <iconify-icon icon="proicons:location" class=" text-lg"></iconify-icon>
-                            <span>2972 Westheimer Rd. Santa Ana, Illinois 85486 </span>
-                        </p>
-                        <p class="text-tropical-indigo border border-tropical-indigo rounded-full py-1.5 px-3 w-fit">
-                            Voyant
-                        </p>
+                            <div class="flex flex-col gap-y-2 relative">
+                                <h3 class="font-medium">Jerome Bell</h3>
+                                <p class="text-dark-purple/65 flex items-center gap-x-2">
+                                    <iconify-icon icon="proicons:location" class=" text-lg"></iconify-icon>
+                                    <span>2972 Westheimer Rd. Santa Ana, Illinois 85486 </span>
+                                </p>
+                                <p
+                                    class="text-tropical-indigo border border-tropical-indigo rounded-full py-1.5 px-3 w-fit">
+                                    Voyant
+                                </p>
 
-                    </div>
+                            </div>
+                        </div>
 
-                    <button
-                        class="absolute right-10 bottom-3 flex items-center gap-x-2 bg-amest text-white rounded-md px-4 py-2">
-                        <iconify-icon icon="fluent:call-28-regular" class="text-xl"></iconify-icon>
-                        <span>Contacter</span>
-                    </button>
-                </article>
+                        <button
+                            class="w-full mt-5 md:w-fit md:absolute right-10 bottom-3 flex justify-center items-center gap-x-2 bg-amest text-white rounded-md px-4 py-2">
+                            <iconify-icon icon="fluent:call-28-regular" class="text-xl"></iconify-icon>
+                            <span>Contacter</span>
+                        </button>
+                    </article>
+                </a>
 
 
             </div>
