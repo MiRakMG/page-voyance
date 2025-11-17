@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --spacing-1536: 1536px;
+
+  /* Color */
+  --color-amest: #003459;
+  --color-tropical-indigo: #007ea7;
+  --color-dark-purple: #242038;
+  --color-back: #f8faff;
+  --color-black: #242038;
+  --color-gray: #30333c;
+}
